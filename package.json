@@ -27,7 +27,7 @@
     "url": "https://github.com/worms19/react-baron/issues"
   },
   "devDependencies": {
-    "nodemon": "^1.19.0"
+    "nodemon": "^1.19.1"
   },
   "homepage": "https://github.com/worms19/react-baron#readme"
 }

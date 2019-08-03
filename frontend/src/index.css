@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+ 
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.form-control_ label,
+.form-control_ input,
+.form-control_ textarea{
+  width: 100%;
+  display: block;
+}
+
+.form-control_ label{
+  margin-bottom: 0.5rem;
+}
+
+.form-control_ {
+  margin-bottom: 1rem;
+}
+
+.form-action_ button,
+.btn_ {
+  background: #4268ff;
+  font: inherit;
+  border: 1px solid #4268ff;
+  border-radius: 3px;
+  padding: 0.25rem 1rem;
+  margin-right: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.form-action_ button:hover,
+.form-action_ button:active,
+.btn_:hover,
+.btn_:active
+{
+  background:  #4268ff ;
+  border-color: #4268ff ;
+}

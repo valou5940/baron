@@ -1,0 +1,15 @@
+.auth-form_ {
+    width: 40rem;
+    max-width: 80%;
+    margin: 5rem auto;
+}
+
+.form-background_ {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7rem auto;
+    background: #9c9c9c;
+    border-radius: 10px;
+}

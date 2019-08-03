@@ -33,9 +33,14 @@ app.use('/graphql', graphQlHttp({
   graphiql: true,
 }));
 
+app.use(express.static('frontend/build'));
+
 app.get('/', (req, res) => {
-  res.sendFile(`${__dirname}/frontend/public/index.html`);
+  res.sendFile(`${__dirname}/frontend/build/index.html`);
 });
+
+// app.use(express.static('files'));
+
 
 mongoose.connect(
   `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@eventcluster-qqgzo.mongodb.net/${process.env.MONGO_DB}?retryWrites=true`,
